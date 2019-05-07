@@ -1,5 +1,5 @@
-#include <iostream>
-#include <vector>
+#include <iostream> // input and output
+#include <vector>	// vector
 using namespace std;
 
 template <typename T>
@@ -85,8 +85,9 @@ int main(int argc, char ** argv)
 		cin>>vec[i];
 
 	merge_sort(vec);
-
-	cout<<"Sorted array: ";
+	
+	if(print_input)
+		cout<<"Sorted array: ";
 
 	for(size_t i = 0; i < n; i++)
 
