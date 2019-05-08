@@ -73,7 +73,7 @@ void build_heap(vector<T> & heap, bool comparator(T, T))
 }
 
 template <typename T>
-void heap_sort(vector<T> & heap, bool comparator(T, T) = greater_c)
+void heap_sort(vector<T> & heap, bool comparator(T, T) = lower_c)
 {
 	build_heap(heap, comparator);
 

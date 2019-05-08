@@ -54,13 +54,13 @@ int main(){
 	if(type == 3)
 	{
 		cout<<"\nLower bound for random numbers: ";
-		int lower;
-		int upper;
+		size_t lower;
+		size_t upper;
 		cin>>lower;
 		cout<<"Upper bound for random numbers: ";
 		cin>>upper;
 
-		uniform_int_distribution<int> int_dist(lower, upper);
+		uniform_int_distribution<size_t> int_dist(lower, upper);
 	
 		for(size_t i = 0; i < n; i++)
 			File << int_dist(mt) << ' ';

@@ -94,6 +94,6 @@ int main(int argc, char ** argv)
 		cout<<vec[i]<<' ';
 
 	cout<<endl;
-
+	
 	return 0;
 }
