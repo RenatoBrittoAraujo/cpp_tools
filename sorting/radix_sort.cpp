@@ -73,8 +73,6 @@ int main(int argc, char ** argv)
 	if(print_input)
 		cout<<"Array elements: ";
 
-    size_t max_input = 0;
-
 	for(size_t i = 0; i < n; i++)
 	{
         cin>>arr[i];

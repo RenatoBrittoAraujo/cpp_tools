@@ -42,3 +42,4 @@ O((b/r)(n + 2^(r))), r <= b with n b-bit non-negative integers, it uses counting
 
 # Bucket sort
 
+O(n) and only works with floting point numbers ranging from [0, 1]. Works by dividing into buckets (groups of ) Uses insertion sort.
