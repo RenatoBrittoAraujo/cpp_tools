@@ -18,6 +18,10 @@ O(n²) 100% terrible, but implementation is trivial.
 
 O(n²) 99.99% terrible, but implementation is trivial.
 
+## Shell sort
+
+O(n²) 98.99% terrible, but on average runs decent enough
+
 ## Merge sort
 
 O(n lg(n)) works by dividing each array in half, all the way to the trivial case and building the sorted array using the solutions for smaller cases that are already sorted.
